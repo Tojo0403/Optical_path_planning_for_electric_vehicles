@@ -1,15 +1,24 @@
-# Optical_path_planning_for_electric_vehicles
+# A* graph search Algortithm
 
+## Implementations 
+- Python (2.7)
+- C++11
 
-Under prof Partha Pratim Chakraborti,Department of Computer Science,IIT Kharagpur
+## Instructions
 
-•Designed a Multi Vehicle path optimization system for Electric Vehicles in a very unique and basic way.
+-Python:
 
+```python a_star_search.py```
 
-•Applied Djikstra,A* and other admissible heuristic algorithms to find the optimal paths of system of vehicles
+-C++:
 
+``` mkdir build && cd build```
 
-•Formalized a working schedule under constraints that minimizes the time to complete all tasks of the system
+``` cmake .. && make ```
 
+``` ./astar```
 
-•Developed both admissible optimal as well as heuristic algorithms that works for system of EVs across all kind of network of cities.
+## Todo 
+- External map input
+- Display path and cost
+- Graphical representation of path and environment
